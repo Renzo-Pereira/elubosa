@@ -22,6 +22,30 @@ h1 a {
   color: aliceblue;
 }
 
+.catalogo{
+  width: 90%;
+  margin: 2rem auto 10rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.catalogo-cards{
+  width: 300px;
+  height: 400px;
+  border-radius: 1rem;
+  border: var(--color-primario) 0.2rem solid;
+}
+
+.catalogo-cards img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
 @media (max-width: 767px) {
   /* -------------------------------------------------- */
   /* -------------------------Header------------------------- */
@@ -1713,21 +1737,5 @@ h1 a {
   .nosotrosPagos i {
     width: 4rem;
     height: 4rem;
-  }
-
-  .catalogo{
-    width: 90%;
-    margin: auto;
-  }
-
-  .catalogo-cards{
-    width: 300px;
-    height: 300px;
-  }
-
-  .catalogo-cards img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 }
