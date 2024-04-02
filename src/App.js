@@ -6,6 +6,7 @@ import Nosotros from "./components/nosotros";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contacto from "./components/contacto";
 import Catalogo from "./components/catalogo";
+import ItemDetailContainer from "./components/itemDetailContainer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/catalogo" element={<Catalogo />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/item/:id" element={<ItemDetailContainer />} />
         </Routes>
         <Footer />
       </BrowserRouter>
