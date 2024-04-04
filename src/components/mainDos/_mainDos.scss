@@ -1,0 +1,484 @@
+@media (max-width: 767px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--color-primario);
+    font-size: 2rem;
+  }
+
+  .nosotros h2 {
+    margin: 0;
+    border-radius: 2%;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .nosotros p {
+    margin: 0;
+  }
+
+  .nosotros i {
+    font-size: 3rem;
+  }
+
+  .nosotrosUbicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nosotrosUbicacion iframe {
+    width: 90%;
+    border-radius: 2%;
+    margin-top: 1.5rem;
+  }
+
+  .nosotrosEnvioPagos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+  }
+
+  .nosotrosEnvioPagos h2 {
+    margin: 0;
+  }
+
+  .nosotrosEnvioPagos p {
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .nosotrosEnviosLogos {
+    gap: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nosotrosEnvios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nosotrosEnvios img {
+    width: 8rem;
+  }
+
+  .nosotosTitulo {
+    color: var(--color-primario);
+    margin: auto;
+    margin-top: 2rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    gap: 2rem;
+  }
+
+  .nosotrosPagos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nosotrosPagos h2 {
+    color: var(--color-primario);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .nosotrosPagos i {
+    color: var(--color-primario);
+    transform: rotate(-45deg);
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .nosotrosPagosLogos {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .nosotrosPagos img {
+    width: 4rem;
+    height: 2rem;
+  }
+
+  .instagramIcono {
+    padding-left: 2rem;
+  }
+
+  .botonWhatsapp {
+    background-color: transparent;
+    border: 0;
+    position: fixed;
+    left: 90%;
+    top: 90%;
+    color: var(--color-primario);
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .botonWhatsapp img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 20%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--color-primario);
+    font-size: 2rem;
+  }
+
+  .nosotros h2 {
+    margin: 0;
+    border-radius: 2%;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .nosotros p {
+    margin: 0;
+  }
+
+  .nosotros i {
+    font-size: 3rem;
+  }
+
+  .nosotrosUbicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nosotrosUbicacion iframe {
+    width: 90%;
+    border-radius: 2%;
+    margin-top: 1.5rem;
+  }
+
+  .nosotrosEnvioPagos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+  }
+
+  .nosotrosEnvioPagos h2 {
+    margin: 0;
+  }
+
+  .nosotrosEnvioPagos p {
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .nosotrosEnviosLogos {
+    gap: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nosotrosEnvios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nosotrosEnvios img {
+    width: 8rem;
+  }
+
+  .nosotosTitulo {
+    color: var(--color-primario);
+    margin-top: 2rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    gap: 2rem;
+  }
+
+  .nosotrosPagos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nosotrosPagos h2 {
+    color: var(--color-primario);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .nosotrosPagos i {
+    color: var(--color-primario);
+    transform: rotate(-45deg);
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .nosotrosPagosLogos {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .nosotrosPagos img {
+    width: 4rem;
+    height: 2rem;
+  }
+
+  .instagramIcono {
+    padding-left: 2rem;
+  }
+
+  .botonWhatsapp {
+    background-color: transparent;
+    border: 0;
+    position: fixed;
+    left: 93%;
+    top: 90%;
+    color: var(--color-primario);
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .botonWhatsapp img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .Sucursales {
+    height: 100px;
+  }
+
+  .SucursalesP {
+    height: 80px;
+  }
+
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    width: 90%;
+    border-radius: 2%;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--color-primario);
+    font-size: 2rem;
+  }
+
+  .nosotros h2 {
+    margin: 0;
+    border-radius: 2%;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .nosotros p {
+    margin: 0;
+  }
+
+  .nosotros i {
+    font-size: 3rem;
+  }
+
+  .nosotrosUbicacion {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nosotrosUbicacion iframe {
+    border-radius: 2%;
+    margin-top: 1.5rem;
+    max-width: 90%;
+  }
+
+  .nosotrosEnvioPagos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nosotrosEnvioPagos h2 {
+    margin: 0;
+  }
+
+  .nosotrosEnvioPagos p {
+    width: 30rem;
+  }
+
+  .nosotrosEnviosLogos {
+    gap: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nosotrosEnvios {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nosotrosEnvios img {
+    width: 8rem;
+  }
+
+  .nosotosTitulo {
+    color: var(--color-primario);
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    gap: 1rem;
+  }
+
+  .nosotrosPagos {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nosotrosPagos h2 {
+    color: var(--color-primario);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .nosotrosPagos i {
+    color: var(--color-primario);
+    transform: rotate(-45deg);
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .nosotrosPagosLogos {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .nosotrosPagos img {
+    height: 1.5rem;
+  }
+
+  .instagramIcono {
+    padding-left: 2rem;
+  }
+
+  .botonWhatsapp {
+    background-color: transparent;
+    border: 0;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    color: var(--color-primario);
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .botonWhatsapp img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 1600px) {
+    .nosotros h2 {
+        margin: 0;
+        border-radius: 2%;
+        font-size: 3rem;
+        margin-top: 2rem;
+      }
+    
+      .nosotros i {
+        font-size: 3rem;
+      }
+    
+      .nosotrosUbicacion iframe {
+        max-width: 100%;
+        border-radius: 2%;
+        margin-top: 1.5rem;
+      }
+    
+      .nosotrosEnvioPagos h2 {
+        margin: 0;
+      }
+    
+      .nosotrosEnvioPagos p {
+        width: 30rem;
+      }
+    
+      .nosotosTitulo {
+        width: 33rem;
+      }
+    
+      .nosotrosPagos i {
+        width: 4rem;
+        height: 4rem;
+      }
+}

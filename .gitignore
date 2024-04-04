@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) {
+
+}

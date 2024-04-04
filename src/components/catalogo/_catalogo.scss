@@ -1,0 +1,39 @@
+.catalogo{
+    width: 99%;
+    margin: 2rem auto 10rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .catalogo-cards{
+    width: 350px;
+    height: 600px;
+    border-radius: 1rem;
+    border: var(--color-primario) 0.2rem solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-primario);
+  }
+  
+  .catalogo-cards img{
+    width: 100%;
+    height: 80%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+  }
+  
+  .catalogo-cards h2{
+    padding: 0.5rem;
+    color: aliceblue;
+    margin: 0;
+  }
+  
+  .catalogo-cards p{
+    color: aliceblue;
+    margin: 0;
+    padding: 0.5rem;
+  }

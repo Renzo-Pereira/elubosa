@@ -1,6 +1,6 @@
 import { getDocs, collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { db } from "../firebase/config";
+import { db } from "../../firebase/config";
 import { Link } from "react-router-dom";
 
 const Catalogo = () => {

@@ -1,0 +1,242 @@
+@media (max-width: 767px) {
+    .footer {
+        margin-top: 2rem;
+        background-color: var(--color-primario);
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+    
+      footer p {
+        margin: 0;
+        margin-bottom: 0.5rem;
+      }
+    
+      .redes {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        padding-bottom: 1rem;
+        background-color: var(--color-primario);
+        padding-top: 2rem;
+      }
+    
+      .redes i {
+        color: aliceblue;
+        font-size: 3rem;
+      }
+    
+      .contenedoresFooter {
+        width: 80%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: start;
+      }
+    
+      .contenedoresFooter ul {
+        padding: 0;
+      }
+    
+      .contenedoresFooter ul li {
+        list-style: none;
+        padding-bottom: 1rem;
+      }
+    
+      .contenedoresFooter ul li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+    
+      .contenedoresFooter .logoFooter {
+        font-family: "Damion", cursive;
+        font-size: 4rem;
+        font-weight: 100;
+        margin: 0;
+      }
+    
+      .contenedorLegion p {
+        font-size: 1.3rem;
+      }
+    
+      .numeroCel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .numeroCel p {
+        margin: 0.2rem;
+        padding-left: 0.5rem;
+      }
+    
+      .numeroTel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .numeroTel p {
+        font-size: 1rem;
+        margin: 0.2rem;
+        padding-left: 0.5rem;
+      }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .footer {
+        margin-top: 2rem;
+        background-color: var(--color-primario);
+        color: aliceblue;
+        display: flex;
+        justify-content: space-around;
+      }
+    
+      .footer h3 {
+        font-size: 30px;
+      }
+    
+      .redes {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        padding-bottom: 4rem;
+        background-color: var(--color-primario);
+      }
+    
+      .redes i {
+        color: aliceblue;
+        font-size: 3rem;
+      }
+    
+      .contenedoresFooter {
+        width: 15rem;
+        font-size: 1.3rem;
+      }
+    
+      .contenedoresFooter ul {
+        padding: 0;
+      }
+    
+      .contenedoresFooter ul li {
+        list-style: none;
+        padding-bottom: 1rem;
+      }
+    
+      .contenedoresFooter ul li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+    
+      .contenedoresFooter .logoFooter {
+        font-family: "Damion", cursive;
+        font-size: 4rem;
+        font-weight: 100;
+        margin: 0;
+      }
+    
+      .contenedorLegion p {
+        font-size: 1.5rem;
+      }
+    
+      .numeroCel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .numeroCel p {
+        margin: 0.2rem;
+        padding-left: 0.5rem;
+      }
+    
+      .numeroTel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .numeroTel p {
+        font-size: 1rem;
+        margin: 0.2rem;
+        padding-left: 0.5rem;
+      }
+}
+
+@media (min-width: 1025px) {
+    .footer {
+        margin-top: 2rem;
+        background-color: var(--color-primario);
+        color: aliceblue;
+        display: flex;
+        justify-content: space-around;
+      }
+    
+      .footer h3 {
+        font-size: 30px;
+      }
+    
+      .redes {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        padding-bottom: 4rem;
+        background-color: var(--color-primario);
+      }
+    
+      .redes i {
+        color: aliceblue;
+        font-size: 3rem;
+      }
+    
+      .contenedoresFooter {
+        width: 15rem;
+        font-size: 1.3rem;
+      }
+    
+      .contenedoresFooter ul {
+        padding: 0;
+      }
+    
+      .contenedoresFooter ul li {
+        list-style: none;
+        padding-bottom: 1rem;
+      }
+    
+      .contenedoresFooter ul li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+    
+      .contenedoresFooter .logoFooter {
+        font-family: "Damion", cursive;
+        font-size: 4rem;
+        font-weight: 100;
+        margin: 0;
+      }
+    
+      .contenedorLegion p {
+        font-size: 1.5rem;
+      }
+    
+      .numeroCel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .numeroCel p {
+        margin: 0.2rem;
+        padding-left: 0.5rem;
+      }
+    
+      .numeroTel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .numeroTel p {
+        font-size: 1rem;
+        margin: 0.2rem;
+        padding-left: 0.5rem;
+      }
+}

@@ -1,0 +1,110 @@
+@media (max-width: 767px) {
+    .main {
+        margin: auto;
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 90%;
+        background-color: var(--color-primario);
+        border-radius: 1rem;
+      }
+    
+      .main h2 {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-top: 1rem 0 1rem 0;
+      }
+    
+      .nombre {
+        font-family: "Damion", cursive;
+        font-weight: 100;
+        font-size: 2rem;
+      }
+    
+      .textoH2 {
+        width: 90%;
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: center;
+      }
+    
+      .posInfo {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+      }
+    
+      .info img {
+        border-radius: 0 0 1rem 1rem;
+      }
+    
+      .textoInfo {
+        border-radius: 1rem 1rem 0 0;
+        padding: 0.5rem;
+        background-color: aliceblue;
+      }
+}
+
+@media (min-width: 767px) and (max-width: 1920px) {
+    .main {
+        margin: auto;
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 90%;
+        background-color: var(--color-primario);
+        border-radius: 1rem;
+      }
+    
+      .main h2 {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        margin-top: 1rem 0 1rem 0;
+      }
+    
+      .nombre {
+        font-family: "Damion", cursive;
+        font-weight: 100;
+        font-size: 5.5rem;
+      }
+    
+      .textoH2 {
+        font-size: 1.3rem;
+      }
+    
+      .posInfo {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 90%;
+      }
+    
+      .info img {
+        width: 55%;
+        border-radius: 1rem;
+      }
+    
+      .textoInfo {
+        border-radius: 1rem;
+        padding: 0.5rem;
+        width: 40%;
+        background-color: aliceblue;
+      }
+}

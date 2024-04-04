@@ -1,12 +1,12 @@
 import "./App.css";
-import NavBar from "./components/navbar";
-import Footer from "./components/footer";
-import Main from "./components/main";
-import Nosotros from "./components/nosotros";
+import NavBar from "./components/navbar/navbar.jsx";
+import Footer from "./components/footer/footer.jsx";
+import Main from "./components/main/main.jsx";
+import Nosotros from "./components/nosotros/nosotros.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Contacto from "./components/contacto";
-import Catalogo from "./components/catalogo";
-import ItemDetailContainer from "./components/itemDetailContainer";
+import Contacto from "./components/contacto/contacto.jsx";
+import Catalogo from "./components/catalogo/catalogo.jsx";
+import ItemDetailContainer from "./components/itemDetailContainer/itemDetailContainer.jsx";
 
 function App() {
   return (

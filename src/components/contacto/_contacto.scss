@@ -1,0 +1,125 @@
+@media (max-width: 767px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto 2rem auto;
+        width: 50%;
+        gap: 1rem;
+      }
+    
+      form input,
+      textarea {
+        border-radius: 0.5rem;
+        border: var(--color-secundario) 0.1rem solid;
+        height: 2.5rem;
+      }
+    
+      input:focus,
+      textarea:focus {
+        border: var(--color-primario) 0.2rem solid;
+        outline: none;
+      }
+    
+      form button {
+        margin: auto;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 1rem;
+        background-color: aliceblue;
+        border: var(--color-secundario) 0.2rem solid;
+      }
+    
+      form button:active {
+        border: var(--color-primario) 0.2rem solid;
+      }
+    
+      form .errors{
+        color: red;
+        font-weight: 800;
+        margin: 0;
+      }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto 2rem auto;
+        width: 50%;
+        gap: 1rem;
+      }
+    
+      form input,
+      textarea {
+        border-radius: 0.5rem;
+        border: var(--color-secundario) 0.1rem solid;
+        height: 2.5rem;
+      }
+    
+      input:focus,
+      textarea:focus {
+        border: var(--color-primario) 0.2rem solid;
+        outline: none;
+      }
+    
+      form button {
+        margin: auto;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 1rem;
+        background-color: aliceblue;
+        border: var(--color-secundario) 0.2rem solid;
+      }
+    
+      form button:active {
+        border: var(--color-primario) 0.2rem solid;
+      }
+      
+      form .errors{
+        color: red;
+        font-weight: 800;
+        margin: 0;
+      }
+}
+
+@media (min-width: 1025px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto 2rem auto;
+        width: 50%;
+        gap: 1rem;
+      }
+    
+      form input,
+      textarea {
+        border-radius: 0.5rem;
+        border: var(--color-secundario) 0.1rem solid;
+        height: 2.5rem;
+      }
+    
+      input:focus,
+      textarea:focus {
+        border: var(--color-primario) 0.2rem solid;
+        outline: none;
+      }
+    
+      form button {
+        margin: auto;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 1rem;
+        background-color: aliceblue;
+        border: var(--color-secundario) 0.2rem solid;
+      }
+    
+      form button:active {
+        border: var(--color-primario) 0.2rem solid;
+      }
+    
+      form .errors{
+        color: red;
+        font-weight: 800;
+        margin: 0;
+      }
+}

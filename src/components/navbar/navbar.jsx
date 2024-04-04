@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import whatsapp from "../assets/whatsapp.jpg"
+import whatsapp from "../../assets/whatsapp.jpg"
 import { Link } from "react-router-dom";
 
 const NavBar = () => {

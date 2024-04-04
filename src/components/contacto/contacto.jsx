@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import useFormu from "../hooks/useFormu";
+import useFormu from "../../hooks/useFormu";
 
 
 const initialForm = {

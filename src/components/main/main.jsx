@@ -6,16 +6,16 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import ingresoA from "../assets/ingresoA.webp";
-import ingresoB from "../assets/ingresoB.webp";
-import ingresoC from "../assets/ingresoC.webp";
-import ingresoD from "../assets/ingresoD.webp";
-import ingresoE from "../assets/ingresoE.webp";
-import ofertaA from "../assets/ofertaA.jpg";
-import ofertaB from "../assets/ofertaB.jpg";
-import ofertaC from "../assets/ofertaC.jpg";
-import ofertaD from "../assets/ofertaD.jpg";
-import MainDos from "./mainDos";
+import ingresoA from "../../assets/ingresoA.webp";
+import ingresoB from "../../assets/ingresoB.webp";
+import ingresoC from "../../assets/ingresoC.webp";
+import ingresoD from "../../assets/ingresoD.webp";
+import ingresoE from "../../assets/ingresoE.webp";
+import ofertaA from "../../assets/ofertaA.jpg";
+import ofertaB from "../../assets/ofertaB.jpg";
+import ofertaC from "../../assets/ofertaC.jpg";
+import ofertaD from "../../assets/ofertaD.jpg";
+import MainDos from "../mainDos/mainDos";
 
 const Main = () => {
   return (
