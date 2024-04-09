@@ -21,7 +21,7 @@ const Catalogo = () => {
   return (
     <div className="catalogo">
       {productos.map((prod) => (
-        <Link to={`/item/${prod.id}`}>
+        <Link key={prod.id} to={`/item/${prod.id}`}>
         <div className="catalogo-cards">
           <img src={prod.imagenUrl} alt={prod.nombre}></img>
           <h2>{prod.titulo}</h2>

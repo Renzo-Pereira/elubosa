@@ -27,8 +27,9 @@ const ItemDetailContainer = () => {
             <h4>Colores:</h4>
             <p className="precio">{item.colores}</p>
             <h4>Talles:</h4>
-              <p className="textoDetail">{item.talles}</p>
+              <p className="">{item.talles + ""}</p>
               <h3>Descripción</h3>
+              <p className="">{item.descripcion}</p>
           </div>
         </div>
       )}
