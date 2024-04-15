@@ -8,6 +8,10 @@
     color: var(--color-primario);
   }
   
+  .contenedorItemDetail h3{
+    font-size: 2rem;
+  }
+
   .contenedorItemDetail p{
     color: #000;
   }
@@ -25,7 +29,7 @@
 
 @media (max-width: 767px) {
   .contenedorItemDetail{
-    margin: auto;
+    margin: 2rem auto;
     padding: 0rem;
     width: 90%;
     display: flex;
@@ -44,6 +48,7 @@
     width: 280px;
     height: 400px;
     object-fit: cover;
+    padding-top: 1rem;
     border-radius: 1rem;
   }
   

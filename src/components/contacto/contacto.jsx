@@ -50,7 +50,7 @@ const Contacto = () => {
   
     return (
       <div className="contenedorForm">
-        <h1>Contacto</h1>
+        <h2>Contacto</h2>
         <form onSubmit={handleSubmit}>
         <h4>Nombre</h4>
           <input
